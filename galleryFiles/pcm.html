@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCM Album</title>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="icon" href="../photos/ntd-logo.jpg">
+  <script src="albums.js" defer></script>
+  <script src="gallery.js" defer></script>
+</head>
+<!-- Only line to change when copying this file for a new album: data-album must match the id in albums.js -->
+<body class="album-page" data-album="pcm">
+
+<main class="album-wrap">
+  <a class="back-link" href="../index.html#gallery">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M19 12H5" />
+      <path d="M12 19l-7-7 7-7" />
+    </svg>
+    <span>Back to gallery</span>
+  </a>
+  <h1 id="albumTitle"></h1>
+  <p class="album-sub" id="albumCount"></p>
+  <div class="photo-grid" id="albumPhotos"></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,142 @@
+const basePath = location.pathname.includes("/galleryFiles/") ? "../" : "";
+
+const albums = [
+  {
+    id: "voy",
+    name: "Voice of Youth",
+    photos: [
+      { src: basePath + "photos/voytwenty.jpg", alt: ""},
+      { src: basePath + "photos/voynineteen.jpg", alt: ""},
+      { src: basePath + "photos/voyeighteen.jpg", alt: ""},
+      { src: basePath + "photos/voyseventeen.jpg", alt: ""},
+      { src: basePath + "photos/voysixteen.jpg", alt: ""},
+      { src: basePath + "photos/voyfifteen.jpg", alt: ""},
+      { src: basePath + "photos/voyforteen.jpg", alt: ""},
+      { src: basePath + "photos/voythirteen.jpg", alt: ""},
+      { src: basePath + "photos/voytwelve.jpg", alt: ""},
+      { src: basePath + "photos/voyeleven.jpg", alt: ""},
+      { src: basePath + "photos/voyten.jpg", alt: ""},
+      { src: basePath + "photos/voynine.jpg", alt: ""},
+      { src: basePath + "photos/voyeight.jpg", alt: ""},
+      { src: basePath + "photos/voyseven.jpg", alt: ""},
+      { src: basePath + "photos/voysix.jpg", alt: ""},
+      { src: basePath + "photos/voyfive.jpg", alt: ""},
+      { src: basePath + "photos/voyfour.jpg", alt: ""},
+      { src: basePath + "photos/voythree.jpg", alt: ""},
+      { src: basePath + "photos/voytwo.jpg", alt: ""},
+      { src: basePath + "photos/voyone.jpg", alt: ""},
+    ]
+  },
+  {
+    id: "pathfinder",
+    name: "Pathfinder",
+    photos: [
+      {src: basePath + "photos/pathfinderone.jpg", alt: "Pathfinder"},
+      {src: basePath + "photos/pathfindertwo.jpg", alt: "Pathfinder"},
+    ]
+  },
+  {
+    id: "pcm",
+    name: "PCM",
+    photos: [
+      {src: basePath + "photos/pcmthirtythree.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthirtytwo.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthirtyone.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthirty.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentynine.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentyeight.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentyseven.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentysix.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentyfive.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentyfour.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentythree.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentytwo.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwentyone.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwenty.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmnineteen.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmeighteen.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmfifteen.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmforteen.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthirteen.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwelve.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmeleven.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmten.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmnine.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmeight.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmseven.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmsix.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthree.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmtwo.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmone.jpg", alt: "PCM Photos"},
+    ]
+  },
+  {
+    id: "fellowship",
+    name: "Team NTD",
+    photos: [
+      { src: basePath + "photos/teamntdtwentyfive.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwentyfour.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwentythree.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwentytwo.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwentyone.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwenty.jpg", alt: ""},
+      { src: basePath + "photos/teamntdnineteen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdeighteen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdseventeen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdsixteen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdfifteen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdforteen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdthirteen.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwelve.jpg", alt: ""},
+      { src: basePath + "photos/teamntdeleven.jpg", alt: ""},
+      { src: basePath + "photos/teamntdten.jpg", alt: ""},
+      { src: basePath + "photos/teamntdnine.jpg", alt: ""},
+      { src: basePath + "photos/teamntdeight.jpg", alt: ""},
+      { src: basePath + "photos/teamntdseven.jpg", alt: ""},
+      { src: basePath + "photos/teamntdsix.jpg", alt: ""},
+      { src: basePath + "photos/teamntdfive.jpg", alt: ""},
+      { src: basePath + "photos/teamntdfour.jpg", alt: ""},
+      { src: basePath + "photos/teamntdthree.jpg", alt: ""},
+      { src: basePath + "photos/teamntdtwo.jpg", alt: ""},
+      { src: basePath + "photos/teamntdone.jpg", alt: ""},
+      { src: basePath + "photos/image.png", alt: "RoFed Fraya Fellowship" },
+      { src: basePath + "photos/about-picture.jpg", alt: "Fellowship in Sugod Church"},
+    ]
+  },
+  {
+    id: "baptism",
+    name: "Baptism",
+    photos: [
+      {src: basePath + "photos/baptismone.jpg", alt: ""},
+      {src: basePath + "photos/baptismtwo.jpg", alt: ""},
+      {src: basePath + "photos/baptismthree.jpg", alt: ""},
+      {src: basePath + "photos/baptismfour.jpg", alt: ""},
+      {src: basePath + "photos/baptismfive.jpg", alt: ""},
+      {src: basePath + "photos/baptismsix.jpg", alt: ""},
+    ]
+  },
+  {
+    id: "staMaria",
+    name: "Sta Maria",
+    photos: [
+      {src: basePath + "photos/paroyhognine.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogeight.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogseven.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogsix.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogfive.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogfour.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogthree.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogtwo.jpg", alt: ""},
+      {src: basePath + "photos/paroyhogone.jpg", alt: ""},
+    ]
+  },
+  {
+    id: "sanAgustin",
+    name: "San Agustin",
+    photos: [
+      { src: basePath + "photos/hello.jpg", alt: "OneVoice27 in San Agustin" },
+      { src: basePath + "photos/r.jpg", alt: "" },
+      { src: basePath + "photos/q.jpg", alt: "" }
+    ]
+  }
+];
