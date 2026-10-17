@@ -1,0 +1,314 @@
+:root {
+    --bg: #210234;
+    --bg-deep: #10011a;
+    --text: #fcd7f4;
+    --muted: #bbb;
+    --accent: rgba(197, 146, 244, 0.85);
+    --card: rgba(124, 58, 237, 0.15);
+    --card-border: rgba(168, 85, 247, 0.3);
+    --field: #17012a;
+    --radius: 15px;
+    --song-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+}
+
+/* Top bar (same look as the sermons page) */
+
+.topBar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 2rem;
+    background: #000;
+    border-bottom: 1px solid #1c1c1c;
+}
+
+.topBrand {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.topNav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+}
+
+.topNav a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text);
+    opacity: .9;
+}
+
+.topNav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Layout */
+
+.sbWrap {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 5rem;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    line-height: 1.15;
+    margin-bottom: 2rem;
+}
+
+/* Filters */
+
+.filters {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.field label {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    min-height: 3.5rem;
+    padding: .6rem 1.1rem;
+    font: inherit;
+    font-size: 1.1rem;
+    color: var(--text);
+    background: var(--field);
+    border: 2px solid var(--card-border);
+    border-radius: var(--radius);
+}
+
+.field input::placeholder {
+    color: #8f7a9c;
+}
+
+.field select {
+    cursor: pointer;
+}
+
+.sbCount {
+    margin: 1.75rem 0 1.25rem;
+    font-size: 1.15rem;
+    opacity: .85;
+}
+
+/* Song list */
+
+.songGrid {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.sbItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .8rem 1rem;
+    text-decoration: none;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    transition: background .2s, transform .2s;
+}
+
+.sbItem:hover {
+    background: rgba(124, 58, 237, .3);
+    transform: translateX(4px);
+}
+
+.sbNum {
+    flex: none;
+    min-width: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--accent);
+}
+
+.sbItemText {
+    display: flex;
+    flex-direction: column;
+}
+
+.sbItemText small {
+    opacity: .7;
+}
+
+.sbEmpty {
+    padding: 2rem 0;
+    opacity: .8;
+}
+
+/* Buttons */
+
+.sbBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: .4rem 1.2rem;
+    color: #e8e8ee;
+    text-decoration: none;
+    font: inherit;
+    font-size: 1rem;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    transition: background .2s, color .2s;
+}
+
+.sbBtn:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+/* Song view */
+
+#songView {
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+.sbSongBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sbSize {
+    display: flex;
+    gap: .5rem;
+}
+
+.sbSong h2 {
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+    line-height: 1.2;
+    margin-bottom: .25rem;
+}
+
+.sbMeta {
+    opacity: .75;
+    margin-bottom: 1.75rem;
+}
+
+.sbStanza {
+    margin-bottom: 1.75rem;
+}
+
+.sbLabel {
+    margin-bottom: .25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.sbLines {
+    font-size: var(--song-size);
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+.sbNav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--card-border);
+}
+
+.sbNav .sbBtn:only-child {
+    margin-left: auto;
+}
+
+/* Small screens */
+
+@media (max-width: 800px) {
+    .topBar {
+        padding: 1rem;
+    }
+
+    .topBrand {
+        font-size: 1.15rem;
+    }
+
+    .topNav {
+        gap: 1.25rem;
+    }
+
+    .sbWrap {
+        padding: 2.5rem 1rem 4rem;
+    }
+
+    .filters {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+    }
+}

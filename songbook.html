@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AY Program songbook of the Northern Tablas District.">
+  <title>Songbook | Northern Tablas District</title>
+  <link rel="icon" href="photos/default/ntd-logo.jpg">
+  <link rel="stylesheet" href="songbookFiles/songbook.css">
+  <script src="songbookFiles/songs.js" defer></script>
+  <script src="songbookFiles/songbook.js" defer></script>
+</head>
+
+<body>
+
+  <header class="topBar">
+    <a class="topBrand" href="index.html">
+      <img src="photos/default/ntd-logo.jpg" alt="" width="40" height="40">
+      <span>Northern Tablas District</span>
+    </a>
+    <nav class="topNav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="sermons/sermons.html">Sermons</a>
+      <a href="sermons/sermons.html#prayer">Prayer Request</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="sbWrap">
+
+    <!-- List of songs -->
+    <section id="listView">
+      <h1>Songbook</h1>
+
+      <div class="filters">
+        <div class="field fieldWide">
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="e.g. title, number, a line from the song"
+            autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="categorySelect">Category</label>
+          <select id="categorySelect"></select>
+        </div>
+        <div class="field">
+          <label for="sortSelect">Sort by</label>
+          <select id="sortSelect">
+            <option value="number">Song number</option>
+            <option value="title">Title (A to Z)</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="sbCount" id="resultCount" aria-live="polite"></p>
+      <div class="songGrid" id="songGrid"></div>
+    </section>
+
+    <!-- One song -->
+    <section id="songView" hidden>
+      <div class="sbSongBar">
+        <a class="sbBtn" href="#" id="backToList">All songs</a>
+        <div class="sbSize" role="group" aria-label="Text size">
+          <button class="sbBtn" id="sizeDown" type="button" aria-label="Smaller text">A&minus;</button>
+          <button class="sbBtn" id="sizeUp" type="button" aria-label="Bigger text">A+</button>
+        </div>
+      </div>
+      <article class="sbSong">
+        <h2 id="songTitle"></h2>
+        <p class="sbMeta" id="songMeta"></p>
+        <div id="songBody"></div>
+      </article>
+      <div class="sbNav">
+        <a class="sbBtn" id="prevSong" href="#">
+          < Previous</a>
+            <a class="sbBtn" id="nextSong" href="#">Next ></a>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
