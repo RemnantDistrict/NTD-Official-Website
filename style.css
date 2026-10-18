@@ -561,86 +561,34 @@ a.card:hover {
 
 /* Footer */
 
-footer {
-    background: #000;
-    padding: 3rem 1.5rem 1.25rem;
-    border-top: 1px solid var(--card-border);
-}
-
-.footerGrid {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-    max-width: 70rem;
-    margin: 0 auto;
-}
-
-.footerCol {
+/* Footer bottom bar */
+.footerBottom {
     display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
-
-.footerCol h3 {
-    font-size: 1.05rem;
-    margin-bottom: .25rem;
-    color: #fff;
-}
-
-.footerCol h4 {
-    font-size: .95rem;
-    font-weight: 600;
-    margin-top: .5rem;
-}
-
-.footerCol ul {
-    display: flex;
-    flex-direction: column;
-    gap: .35rem;
-}
-
-.footerCol li,
-.footerCol address,
-.footerAbout p {
-    font-size: .92rem;
-    color: var(--muted);
-    font-style: normal;
-}
-
-.footerCol a {
-    text-decoration: none;
-    color: var(--muted);
-    transition: color .2s;
-}
-
-.footerCol a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.footerBrand {
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     gap: .75rem;
-    font-weight: 600;
-    color: #fff;
+    max-width: 70rem;
+    margin: 2rem auto 0;
+    padding-top: 1rem;
+    border-top: 1px solid var(--card-border);
+    color: var(--muted);
 }
 
-.footerBrand img {
+.toTop {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 2px solid var(--accent);
     border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: background .2s;
 }
 
-/* Facebook links with icon */
-.socmedLink {
-    display: inline-flex;
-    align-items: center;
-    gap: .5rem;
-    margin-left: 0;
-}
-
-.footerCol address {
-    margin-top: .75rem;
-    line-height: 1.7;
+.toTop:hover {
+    background: var(--accent);
 }
 
 /* ---------- Skeleton loading ---------- */
@@ -809,6 +757,10 @@ body.isLoading {
 
     .skSidebar {
         display: none;
+    }
+    .footerBottom {
+        justify-content: center;
+        text-align: center;
     }
 }
 
