@@ -44,8 +44,7 @@ const ntdOrgChart = [
     {
       name: "Francis Noe",
       position: "District Youth Leader",
-      photo:
-        "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/626874935_26273689202319906_5955990311497092702_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGj5o7E7DU_HGgU5AJm_hUC0gSxpH5OpzjSBLGkfk6nONaZa_tf1QVLJDl3yfD2o8tZx29lYZKexVbFrv-K4KQW&_nc_ohc=II-8edem7dwQ7kNvwH5LlKX&_nc_oc=Adrvxc1JmRdMiWWwVuh7qO5DEOXRnTPaz2arXOBzW_mQlFA7aDd7REzEHTDU_KFCHJSi4ykJiyhFnTE5AO_JFoP2&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=1PXeVTxFNY2RHnED8WoiuA&_nc_ss=7b2a8&oh=00_AQPMYwm08L6BfemwVpQ-pNeR01KX6ynr7VnewYpNL-emVA&oe=6AD404B4",
+      photo: "photos/default/francis.jpg"
     },
   ], //For District Officers
   [
@@ -61,10 +60,9 @@ const ntdOrgChart = [
         "https://scontent-mnl3-2.xx.fbcdn.net/v/t39.30808-6/473054147_1175592760650054_6876257426040782697_n.jpg?stp=dst-jpg_tt6&cstp=mx750x750&ctp=s750x750&_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGtNoSwkWbBCWke1uEAVk5JaaofERfxdq9pqh8RF_F2r0tdWFy89iB2Mxp_Qkhy2fJvX5XQlKZ2-9BU-mEuRzgI&_nc_ohc=ns7yc_hvpCsQ7kNvwE6at5_&_nc_oc=AdoKd5G0BzxEUXtv1pudzC6yfuOhmdT-PwmJrIuug629_q1jjGPk-HNp9Q9Yi8LvUa_bfqiqXtfCZfmm1_tHqmlT&_nc_zt=23&_nc_ht=scontent-mnl3-2.xx&_nc_gid=erdHAFs3ohN11wzUaRz2dw&_nc_ss=7b2a8&oh=00_AQNclqxi1gui6jzibzUCSo8SdmX-y-kKw3ctrY5OshlhFg&oe=6AD3F6D0",
     },
     {
-      name: "Gieraldine Visca",
+      name: "Geraldine Visca",
       position: "Concepcion Sur Elder",
-      photo:
-        "https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/463618413_4693876934170961_7812467560921334839_n.jpg?stp=dst-jpg_tt6&cstp=mx953x960&ctp=s953x960&_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeENT45INBlK5kh0VEFojU980vQbLQKRjrHS9BstApGOsdZ8d_CsJIrGRvn9aYyXMWRV67_9APmAMzTgB6R2VXtu&_nc_ohc=3VM960eIEIMQ7kNvwHpdDtz&_nc_oc=AdoMe8GDkA8FpODVV4Xoz9XtyRr9L6upHEhmuUuYqT9BUuTNfoYqc9Bs8MPinyE7FM-yujexNonyyn25eY4Nj3cX&_nc_zt=23&_nc_ht=scontent-mnl1-1.xx&_nc_gid=ns8lYvygwYLf54wKGrEh-Q&_nc_ss=7b2a8&oh=00_AQO8d1O4uLVCdocOQBw0joYIb3EWE1LIlVdZOz-yJXH3Yw&oe=6AD407FF",
+      photo: "photos/default/geraldine.jpg"
     },
     { name: "Daniel Rio", position: "Concepcion Sur Elder" },
     {
@@ -108,11 +106,11 @@ const pcmOrgChart = [
       photo:
         "https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-1/782877943_122144019981346865_8885606365774409219_n.jpg?stp=dst-jpg_tt6&cstp=mx1464x1472&ctp=s100x100&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHYLMxDRKN-jCaUbXKPECDt4GvhI8Cph3nga-EjwKmHeTLWfRC8ifOBMTau3PPdyxUONXSdTAs_XQ3N9Iysa5S7&_nc_ohc=CZL0sw2IJWkQ7kNvwEKfVp4&_nc_oc=AdrPWjZWCRFxh98PR2WViEwWps4cHiEW5hFkzgYGaVK0K5ngOu6ZFqqtmIk2o9nmgZYR4_mrzZeqJ9iGszxmQeD_&_nc_zt=24&_nc_ht=scontent-mnl3-1.xx&_nc_gid=edbEIbt4INkX89C4pipoew&_nc_ss=7b2a8&oh=00_AQNzY8VMr8xQHgd-oGqSiemPPeUK0faggTfPIKcrO4xToQ&oe=6AD7EF99",
     },
-    { name: "April Ganoria", position: "Church PIO" },
+    { name: "April Ganoria", position: "Church PIO", photos: "/photos/default/april.jpg"},
     { name: "Samchell Amoroto", position: "Church PIO" },
     { name: "Jayzlaire Ramirez", position: "Church PIO" },
     { name: "Jhavin Ramal", position: "Church PIO" },
-    { name: "Krisha Mortel", position: "Church PIO" },
+    { name: "Krisha Mortel", position: "Church PIO", photos: "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-1/627519564_882660734634735_2285363579639376628_n.jpg?stp=dst-jpg_tt6&cstp=mx772x778&ctp=p100x100&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeG6y1zYUl4a_kADRtUgk-Smec7eWrt8W6B5zt5au3xboKjFhFKh2WpBOIsrZgqNvuvcZDKmmo3OH7TRLL3nA1fs&_nc_ohc=_AK0NJ2m1-gQ7kNvwHjLCme&_nc_oc=Adp969rMPvs3q3LFQYvMr64G2rfXI5ht0QwYvEEeocziEK_hpD34v8qThy__cZmGGvfgVqQIvImDmGz6Ng_UhI-t&_nc_zt=24&_nc_ht=scontent-mnl1-2.xx&_nc_gid=SvBL_BawP4fJv7YD2_pkNQ&_nc_ss=7b2a8&oh=00_AQMyNAxBxr26uOysFI3flkLUDYHJGM02BoVwvW_cfC39NQ&oe=6AD9392E"},
   ],
 ];
 
@@ -120,8 +118,14 @@ const orgCharts = { ntd: ntdOrgChart, pcm: pcmOrgChart };
 
 const events = [
   {
+    name: "Remnant Fellowship",
+    location: "Paroyhog, Sta. Maria, Romblon",
+    date: "2026-10-24",
+    // theme:
+  },
+  {
     name: "Pathfinder Camping 2026",
-    location: "San Agustin, Romblon",
+    location: "Dubduban, San Agustin, Romblon",
     date: "2026-10-30 - 2026-11-02",
     theme: "Be prepared. Be adventurous. Be closer to God.",
   },
