@@ -238,16 +238,35 @@ const songs = [
     source: "",
     lyrics: `
     [Verse 1]
+    I have decided to follow Jesus,
+    I have decided to follow Jesus.
+    I have decided to follow Jesus.
+    No turning back, no turning back
+
+    [Verse 2]
+    Though no one joins me, still I will follow,
+    Though no one joins me, still I will follow.
+    Though no one joins me, still I will follow.
+    No turning back, no turning back
+
+    [Verse 3]
+    The world behind me, the cross before me,
+    The world behind me, the cross before me.
+    The world behind me, the cross before me.
+    No turning back, no turning back
     `,
   },
   {
     number: 9,
-    title: "Deep and Wide",
+    title: "Read Your Bibke",
     category: "Action Song",
     source: "",
     lyrics: `
     [Verse 1]
-
+    Read your bible, pray everyday, pray everyday, pray everyday
+    Read your bible, pray everyday, And grow, grow, grow
+    And you grow, grow, grow, And you grow, grow, grow
+    Read your bible, pray everyday, And you grow, grow, grow
     `,
   },
   {
@@ -257,6 +276,39 @@ const songs = [
     source: "",
     lyrics: `
     [Verse 1]
+    I've got a home in Glory Land
+    That outshines the sun
+    I've got a home in Glory Land
+    That outshines the sun
+    I've got a home in Glory Land
+    That outshines the sun
+    Away beyond the blue
+
+    [Chorus]
+    Do Lord, O do Lord, O do remember me
+    Do Lord, O do Lord, O do remember me
+    Do Lord, O do Lord, O do remember me
+    Away beyond the blue
+
+    [Verse 2]
+    I took Jesus as my Savior,
+    You take Him too
+    I took Jesus as my Savior,
+    You take Him too
+    I took Jesus as my Savior,
+    You take Him too
+    Away beyond the blue
+
+    [----------Repeat Chorus----------]
+
+    [Verse 3]
+    I read about the Book of Revelation,
+    You read it too
+    I read about the Book of Revelation,
+    You read it too
+    I read about the Book of Revelation,
+    You read it too
+    Away beyond the blue
     `,
   },
   {
@@ -336,7 +388,17 @@ const songs = [
     category: "Action Song",
     source: "",
     lyrics: `
-    [Verse 1]
+    [Verse]
+    I'm too young to march in the infantry,
+    Ride in the cavalry, shoot the artillery,
+    I'm too young to fly o'er the enemy,
+    But I'm in the Lord's army
+
+    I'm in the Lord's army, I'm in the Lord's army
+    I'm too young to march in the infantry,
+    Ride in the cavalry, shoot the artillery,
+    I'm too young to fly o'er the enemy,
+    But I'm in the Lord's army
     `,
   },
   {
@@ -368,7 +430,14 @@ const songs = [
     category: "Prayer Song",
     source: "",
     lyrics: `
-    [Verse 1]
+    [Verse]
+    Into my Heart
+    Into my Heart
+    Come into my Heart, Lord Jesus
+
+    Come in today,
+    Come in to stay
+    Come into my Heart, Lord Jesus
     `,
   },
   {
@@ -481,6 +550,213 @@ const songs = [
     Through the way things appear; You're looking into my heart
 
     [----------Repeat Chorus----------]
+    `,
+  },
+  {
+    number: 24,
+    title: "Your Raise Me Up",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    When I am down and, oh my soul, so weary;
+    When troubles come and my heart burdened be;
+    Then, I am still and wait here in the silence,
+    Until You come and sit awhile with me.
+
+    [Chorus]
+    You raise me up, so I can stand on mountains;
+    You raise me up, to walk on stormy seas;
+    I am strong, when I am on Your shoulders'
+    You raise me up to more than I can be
+
+    [----------Repeat Chorus 2x, half step higher----------]
+    `,
+  },
+  {
+    number: 25,
+    title: "Jesus loves me",
+    category: "Action Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    Jesus love me this I know
+    For the Bible tells me so,
+    Little ones to Him belong,
+    They are weak
+    But He is strong
+
+    [Chorus]
+    Yes, Jesus loves me
+    Yes, Jesus loves me
+    Yes, Jesus loves me
+    The Bible tells me so.
+    `,
+  },
+  {
+    number: 26,
+    title: "No More Nights",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    The timesless theme, earth and heaven will pass away
+    It's not a dream God will make all things new that day
+    Gone is the curse from which i stumbled and fell
+    Evil is banished to eternal hell
+
+    [Chorus]
+    No more nights, no more pain
+    No more tears, never crying again
+    Praises to the Great I Am
+    We will live in the light of the risen lamb
+
+    [Verse 2]
+    See all around now the nations bow down to sing
+    The only sound is the praises to Christ our King
+    Slowly the names froom the book are read
+    I know the King there is no need to dread
+
+    [----------Repeat Chorus----------]
+
+    [Bridge]
+    See over there, it's a mansion prepared for me
+    When I can live with my Savior eternally
+
+    [----------Repeat Chorus----------]
+
+    [Outro]
+    We will live in the light of the risen lamb
+    `,
+  },
+  {
+    number: 27,
+    title: "Blessings",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    We pray for blessings, We pray for peace
+    Comfort for family, protection while we sleep
+    We pray for healing, For prosperity
+    We pray for Your mighty hand to ease our suffering
+
+    All the while, You hear each spoken need
+    Yet love is way too much to give us lesser things
+
+    [Chorus]
+    What if your blessings come through raindrops
+    What if your healing comes through tears
+    What if a thousand sleepless nights are what it takes to know You're near
+    What if trials of this life are Your mercies in disguise
+
+    [Verse 2]
+    We pray for wisdom, Your voice to hear
+    We cry in anger when we cannot feel You near
+    We doubt Your goodness, We doubt Your love
+    As if every promise from Your word is not enough
+
+    And all the while, You hear each desperate plea
+    And long that we have faith to believe
+
+    [----------Repeat Chorus----------]
+
+    [Bridge]
+    When friends betrayed us
+    When darkness seems to win we know
+    The pain reminds this heart that this is not
+    This is not our home
+    It's not our home
+
+    [Chorus 2]
+    What if your blessings come through raindrops
+    What if Your healing comes through tears
+    What if the thousand sleepless nights are what it takes to know You're near
+    What if my greatest disappointments
+    Or the aching of this life
+    Is the revealing of a greater thirst this world can't satisfy
+
+    What if trials of this life, the rain, the storms the hardest nights
+    Are Your mercies in disguise
+    `,
+  },
+  {
+    number: 28,
+    title: "Oh friend, do you love Jesus",
+    category: "Short Choruses",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    Oh friend, do you love Jesus? Oh yes, I love Jesus
+    Are you sure you love Jesus? I'm sure I love Jesus
+    Then why do you love Jesus? There's why I love Jesus
+    Because He first loved me
+    That's the reason we all ought to love Him
+
+    [Chorus]
+    Oh how I love Jesus, Oh how I love Jesus
+    Oh how I love Jesus, Because He first loved me
+    `,
+  },
+  {
+    number: 29,
+    title: "You are my all in all",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    You are my strength when I am weak,
+    You are the treasure that I seek.
+    You are my All in All
+
+    Seeking You as a precious Jewel,
+    Lord, to give up, I'd be a fool,
+    You are my All in All.
+
+    [Chorus]
+    Jesus, Lamb of God. Worthy is Your name
+    Jesus, Lamb of God, Worthy is Your name.
+
+    [Verse 2]
+    Taking my sin, my cross, my shame.
+    Rising again, I bless Your name.
+    You are my All in All
+    When I fall down, You pick me up,
+    When I am dry You fill my cup, You are my All in All.
+    `,
+  },
+  {
+    number: 30,
+    title: "Shout to the Lord",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    My Jesus, my Savior
+    Lord there is none like You
+    All of my days, I want to praise
+    The wonders of Your mighty love
+
+    My comfort, my shelter
+    Tower of refuge and strength
+    Let every breath, all that I am
+    Never cease to worship You
+
+    [Chorus]
+    Shout to the Lord all the earth let us sing
+    Power and majesty, praise to the King
+    Mountains bow down and the seas will roar
+    At the sound of Your Name
+
+    I sing for joy at the work of Your hands
+    Forever I'll love You, forever I'll stand
+    Nothing compares to the promise I have in You
+
+    [----------Repeat Verse 1 and Chorus----------]
+
+    [Outro]
+    Nothing compares to the promise I have in You
+    Nothing compares to the promise I have in You
     `,
   },
 ];
