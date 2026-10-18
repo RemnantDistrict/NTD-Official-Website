@@ -540,40 +540,84 @@ textarea[aria-invalid="true"] {
 
 footer {
     background: #000;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 3rem 1rem 1rem 1rem;
+    padding: 3rem 1.5rem 1.25rem;
+    border-top: 1px solid var(--card-border);
 }
 
-.logoFooter {
+.footerGrid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.footerCol {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footerCol h3 {
+    font-size: 1.05rem;
+    margin-bottom: .25rem;
+    color: #fff;
+}
+
+.footerCol h4 {
+    font-size: .95rem;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.footerCol ul {
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+}
+
+.footerCol li,
+.footerCol address,
+.footerAbout p {
+    font-size: .92rem;
+    color: var(--muted);
+    font-style: normal;
+}
+
+.footerCol a {
+    text-decoration: none;
+    color: var(--muted);
+    transition: color .2s;
+}
+
+.footerCol a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footerBrand {
+    display: flex;
+    align-items: center;
     gap: .75rem;
     font-weight: 600;
+    color: #fff;
 }
 
-.logoFooter div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footerBrand img {
+    border-radius: 50%;
 }
 
-.footerContent {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
+/* Facebook links with icon */
 .socmedLink {
-    margin-left: 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    margin-left: 0;
 }
 
-footer small {
-    opacity: .7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footerCol address {
+    margin-top: .75rem;
+    line-height: 1.7;
 }
 
 @media (max-width: 800px) {
