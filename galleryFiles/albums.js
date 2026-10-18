@@ -269,7 +269,7 @@ const albums = [
       { src: basePath + "photos/sanagustinthree.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustintwo.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinone.jpg", alt: "San Agustin" },
-      { src: basePath + "photos/sanagustin.jpg", alt: "San Agustin" },
+      { src: basePath + "photos/sanagustin.jpg", alt: "San Agustin Sugod"},
       { src: basePath + "photos/hello.jpg", alt: "OneVoice27 in San Agustin" },
     ]
   }
