@@ -513,6 +513,46 @@ function showGreeting() {
   }
 }
 
+
+const phrases = [
+  "Mission for All",
+  "All Things New",
+  "Hope Starts Here"
+];
+
+const textElement = document.getElementById("typewriterText");
+
+let phraseIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+const typingSpeed = 100;
+const deletingSpeed = 50;
+const pauseAfterType = 2500;
+const pauseAfterDelete = 500;
+
+function typeEffect() {
+  const currentPhrase = phrases[phraseIndex];
+
+  charIndex += isDeleting ? -1 : 1;
+  textElement.textContent = currentPhrase.substring(0, charIndex);
+
+  let nextDelay = isDeleting ? deletingSpeed : typingSpeed;
+
+  if (!isDeleting && charIndex === currentPhrase.length) {
+    nextDelay = pauseAfterType;
+    isDeleting = true;
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    phraseIndex = (phraseIndex + 1) % phrases.length;
+    nextDelay = pauseAfterDelete;
+  }
+
+  setTimeout(typeEffect, nextDelay);
+}
+
+document.addEventListener("DOMContentLoaded", typeEffect)
+
 /* Init */
 
 renderOrgChart();
