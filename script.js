@@ -106,7 +106,7 @@ const pcmOrgChart = [
       photo:
         "https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-1/782877943_122144019981346865_8885606365774409219_n.jpg?stp=dst-jpg_tt6&cstp=mx1464x1472&ctp=s100x100&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHYLMxDRKN-jCaUbXKPECDt4GvhI8Cph3nga-EjwKmHeTLWfRC8ifOBMTau3PPdyxUONXSdTAs_XQ3N9Iysa5S7&_nc_ohc=CZL0sw2IJWkQ7kNvwEKfVp4&_nc_oc=AdrPWjZWCRFxh98PR2WViEwWps4cHiEW5hFkzgYGaVK0K5ngOu6ZFqqtmIk2o9nmgZYR4_mrzZeqJ9iGszxmQeD_&_nc_zt=24&_nc_ht=scontent-mnl3-1.xx&_nc_gid=edbEIbt4INkX89C4pipoew&_nc_ss=7b2a8&oh=00_AQNzY8VMr8xQHgd-oGqSiemPPeUK0faggTfPIKcrO4xToQ&oe=6AD7EF99",
     },
-    { name: "April Ganoria", position: "Church PIO", photos: "/photos/default/april.jpg"},
+    { name: "April Ganoria", position: "Church PIO", photos: "photos/default/April.jpg"},
     { name: "Samchell Amoroto", position: "Church PIO" },
     { name: "Jayzlaire Ramirez", position: "Church PIO" },
     { name: "Jhavin Ramal", position: "Church PIO" },
