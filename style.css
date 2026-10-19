@@ -251,6 +251,7 @@ h2 {
         opacity: 0;
     }
 }
+
 .heroActions {
     display: flex;
     flex-wrap: wrap;
@@ -852,10 +853,6 @@ body.isLoading {
 
     .skSidebar {
         display: none;
-    }
-    .footerBottom {
-        justify-content: center;
-        text-align: center;
     }
 }
 
