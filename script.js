@@ -53,10 +53,7 @@ const ntdOrgChart = [
   [
     {
       name: "Nenette Lorenzo",
-      position: "Concepcion Norte Elder",
-      photo:
-        "https://scontent-mnl3-2.xx.fbcdn.net/v/t39.30808-6/473054147_1175592760650054_6876257426040782697_n.jpg?stp=dst-jpg_tt6&cstp=mx750x750&ctp=s750x750&_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGtNoSwkWbBCWke1uEAVk5JaaofERfxdq9pqh8RF_F2r0tdWFy89iB2Mxp_Qkhy2fJvX5XQlKZ2-9BU-mEuRzgI&_nc_ohc=ns7yc_hvpCsQ7kNvwE6at5_&_nc_oc=AdoKd5G0BzxEUXtv1pudzC6yfuOhmdT-PwmJrIuug629_q1jjGPk-HNp9Q9Yi8LvUa_bfqiqXtfCZfmm1_tHqmlT&_nc_zt=23&_nc_ht=scontent-mnl3-2.xx&_nc_gid=erdHAFs3ohN11wzUaRz2dw&_nc_ss=7b2a8&oh=00_AQNclqxi1gui6jzibzUCSo8SdmX-y-kKw3ctrY5OshlhFg&oe=6AD3F6D0",
-    },
+      position: "Concepcion Norte Elder",    },
     {
       name: "Geraldine Visca",
       position: "Concepcion Sur Elder",
@@ -116,6 +113,11 @@ const orgCharts = { ntd: ntdOrgChart, pcm: pcmOrgChart };
 
 const events = [
   {
+    name: "District Pastor Crusade",
+    location: "Camantaya, San Agustin, Romblon",
+    date: "2026-10-18 - 2026-10-23"
+  },
+  {
     name: "Remnant Fellowship",
     location: "Paroyhog, Sta. Maria, Romblon",
     date: "2026-10-24",
@@ -126,6 +128,16 @@ const events = [
     location: "Dubduban, San Agustin, Romblon",
     date: "2026-10-30 - 2026-11-02",
     theme: "Be prepared. Be adventurous. Be closer to God.",
+  },
+  {
+    name: "Election of Church Officers",
+    location: "All Churches",
+    date: "2026-11-07",
+  },
+  {
+    name: "District Pastor Crusade",
+    location: "Sugod, San Agustin, Romblon",
+    date: "2026-11-08 - 2026-11-14",
   },
 ];
 
