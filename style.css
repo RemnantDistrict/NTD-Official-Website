@@ -563,128 +563,254 @@ a.card:hover {
 /* Footer */
 
 footer {
-    background: #000;
-    padding: 3rem 1.5rem 1.25rem;
-    border-top: 1px solid var(--card-border);
+    position: relative;
+    background:
+        radial-gradient(60rem 18rem at 50% -8rem, rgba(124, 58, 237, .22), transparent 70%),
+        #000;
+    padding: 4rem 1.5rem 1.5rem;
+    border-top: 1px solid var(--card-border, #2a2a2a);
 }
 
-.footerGrid {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+/* thin accent line across the top */
+footer::before {
+    content: "";
+    position: absolute;
+    inset: -1px 0 auto 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent, #7c3aed), transparent);
+}
+
+.footerInner {
     max-width: 70rem;
     margin: 0 auto;
+}
+
+/* Mission / Method / Vision */
+.footerBeliefs {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    margin-bottom: 3rem;
+}
+
+.beliefCard {
+    padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid var(--card-border, #2a2a2a);
+    border-left: 3px solid var(--accent, #7c3aed);
+    border-radius: .75rem;
+}
+
+.beliefCard h3 {
+    font-size: 1.05rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.beliefCard p {
+    font-size: .9rem;
+    line-height: 1.65;
+    color: var(--muted, #a1a1aa);
+}
+
+.beliefCard small {
+    display: block;
+    margin-top: .75rem;
+    font-size: .78rem;
+    color: #c4b5fd;
+}
+
+/* Main columns */
+.footerGrid {
+    display: grid;
+    gap: 2.5rem 2rem;
+    grid-template-columns: 1.6fr 1fr 1fr;
+    padding-top: 2.5rem;
+    border-top: 1px solid #222;
 }
 
 .footerCol {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .6rem;
 }
 
 .footerCol h3 {
     font-size: 1.05rem;
-    margin-bottom: .25rem;
     color: #fff;
-}
-
-.footerCol h4 {
-    font-size: .95rem;
-    font-weight: 600;
-    margin-top: .5rem;
+    margin-bottom: .35rem;
 }
 
 .footerCol ul {
     display: flex;
     flex-direction: column;
-    gap: .35rem;
+    gap: .5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footerCol li,
 .footerCol address,
-.footerAbout p {
+.footerBrandCol p {
     font-size: .92rem;
-    color: var(--muted);
+    color: var(--muted, #a1a1aa);
     font-style: normal;
+}
+
+.footerBrandCol p {
+    line-height: 1.65;
+    max-width: 24rem;
 }
 
 .footerCol a {
     text-decoration: none;
-    color: var(--muted);
+    color: var(--muted, #a1a1aa);
     transition: color .2s;
 }
 
 .footerCol a:hover {
     color: #fff;
-    text-decoration: underline;
 }
 
+.footerCol a:focus-visible,
+.toTop:focus-visible {
+    outline: 2px solid #c4b5fd;
+    outline-offset: 3px;
+    border-radius: .25rem;
+}
+
+/* Brand */
 .footerBrand {
     display: flex;
     align-items: center;
-    gap: .75rem;
-    font-weight: 600;
-    color: #fff;
+    gap: .85rem;
 }
 
 .footerBrand img {
     border-radius: 50%;
+    border: 2px solid var(--accent, #7c3aed);
+}
+
+.footerBrand strong {
+    display: block;
+    color: #fff;
+    font-size: 1.05rem;
+    line-height: 1.3;
+}
+
+.footerBrand span {
+    display: block;
+    font-size: .82rem;
+    color: var(--muted, #a1a1aa);
 }
 
 /* Facebook links with icon */
 .socmedLink {
     display: inline-flex;
     align-items: center;
-    gap: .5rem;
-    margin-left: 0;
+    gap: .65rem;
 }
 
+.socmedIcon {
+    display: inline-grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: rgba(124, 58, 237, .15);
+    border: 1px solid rgba(124, 58, 237, .4);
+    transition: background .2s, transform .2s;
+}
+
+.socmedIcon svg {
+    fill: #c4b5fd;
+}
+
+.socmedLink:hover .socmedIcon {
+    background: var(--accent, #7c3aed);
+    transform: translateY(-2px);
+}
+
+.socmedLink:hover .socmedIcon svg {
+    fill: #fff;
+}
+
+/* Address */
 .footerCol address {
-    margin-top: .75rem;
-    line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+    line-height: 1.5;
 }
 
 /* Bottom bar */
 .footerBottom {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: .5rem 1.5rem;
-    max-width: 70rem;
-    margin: 2rem auto 0;
-    padding-top: 1rem;
-    border-top: 1px solid #333;
+    gap: 1rem 1.5rem;
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #222;
 }
 
-footer small {
+.footerBottom small {
     display: block;
     opacity: .7;
     font-size: .8rem;
+    line-height: 1.6;
 }
 
 .toTop {
+    flex-shrink: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    border: 2px solid var(--accent);
+    border: 2px solid var(--accent, #7c3aed);
     border-radius: 50%;
     color: #fff;
     transition: background .2s, transform .2s;
 }
 
+.toTop .icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
 .toTop:hover {
-    background: var(--accent);
+    background: var(--accent, #7c3aed);
     transform: translateY(-2px);
 }
 
-@media (max-width: 800px) {
-    .footerBottom {
-        flex-direction: column;
-        align-items: flex-start;
+@media (prefers-reduced-motion: reduce) {
+    .toTop,
+    .socmedIcon,
+    .footerCol a { transition: none; }
+    .toTop:hover,
+    .socmedLink:hover .socmedIcon { transform: none; }
+}
+
+@media (max-width: 900px) {
+    .footerGrid {
+        grid-template-columns: 1fr 1fr;
     }
+    .footerBrandCol {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 560px) {
+    footer { padding-top: 3rem; }
+    .footerGrid { grid-template-columns: 1fr; }
+    .footerBottom { align-items: flex-start; }
 }
 
 /* ---------- Skeleton loading ---------- */
