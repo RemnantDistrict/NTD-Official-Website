@@ -61,6 +61,11 @@ a {
 header {
     background: #000;
     border-bottom: 1px solid var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 header .wrap {
@@ -68,7 +73,7 @@ header .wrap {
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
-    padding-block: .75rem;
+    padding-block: .65rem;
 }
 
 .brand {
@@ -93,7 +98,8 @@ header nav {
 header nav a {
     color: var(--muted);
     text-decoration: none;
-    padding: .3rem 0;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 header nav a:hover {
