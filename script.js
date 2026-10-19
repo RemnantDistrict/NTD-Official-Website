@@ -32,12 +32,14 @@ const ntdOrgChart = [
     {
       name: "Chona Morales",
       position: "District Secretary & San Agustin Elder",
-      photo: "photos/default/chona.jpg",
+      photo:
+        "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/838910052_1675457767485150_1031739331196364065_n.jpg?stp=dst-jpg_tt6&cstp=mx2041x2048&ctp=s2041x2048&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFt3Z88d-MaRN0rgdpisWijengG6U_ACZF6eAbpT8AJkf3DHpo6i5lqmgFfHOq4vkdV2kwFEB0DTnpkSjuSAg8k&_nc_ohc=ydKrSdy-bZUQ7kNvwHr985y&_nc_oc=AdqerO7TNah_s4nl3B741XDikVZAE49cYXTcl472ZLnKlxkGxYyRNdvltiUo5lBgHq_rYqhHQ0JCihVhBClLeLt4&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=PNol3wFWq9157FauKjkcEA&_nc_ss=7b2a8&oh=00_AQMr1hbqcVeaPVwNHrby7TV_yRTqSWJ-0L55ZMANjgvMyg&oe=6AD3EBED",
     },
     {
       name: "Gladys Jongay",
       position: "District Treasurer",
-      photo: "photos/default/gladys.jpg",
+      photo:
+        "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/801200339_29004223205845380_2565040816093357390_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGRAhRAGX3idUKyvNbDfNa8jzpfg7QwpDOPOl-DtDCkM5KSy8FM_uORGpEBG_XZDhBPAdvbLuSQG4QxFUFRD4FW&_nc_ohc=MC-kTrDL6aoQ7kNvwG-UYzS&_nc_oc=AdrKsynptjWl72R9ACDx2Lt15_Clx4laSRWJbnD3Oy__pE9sAuUbOmaIo0NoYL6aQpHHQ3Toukgw_Va2QIZTBE2r&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=pNs9WnRjJ23UNsNBSvYoTA&_nc_ss=7b2a8&oh=00_AQNYCSM5cPEp7jw6cjrgdda44O1yKVzBfLzOvyXM9_RgUQ&oe=6ACEAE98",
     },
     {
       name: "Francis Noe",
@@ -53,7 +55,10 @@ const ntdOrgChart = [
   [
     {
       name: "Nenette Lorenzo",
-      position: "Concepcion Norte Elder",    },
+      position: "Concepcion Norte Elder",
+      photo:
+        "https://scontent-mnl3-2.xx.fbcdn.net/v/t39.30808-6/473054147_1175592760650054_6876257426040782697_n.jpg?stp=dst-jpg_tt6&cstp=mx750x750&ctp=s750x750&_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGtNoSwkWbBCWke1uEAVk5JaaofERfxdq9pqh8RF_F2r0tdWFy89iB2Mxp_Qkhy2fJvX5XQlKZ2-9BU-mEuRzgI&_nc_ohc=ns7yc_hvpCsQ7kNvwE6at5_&_nc_oc=AdoKd5G0BzxEUXtv1pudzC6yfuOhmdT-PwmJrIuug629_q1jjGPk-HNp9Q9Yi8LvUa_bfqiqXtfCZfmm1_tHqmlT&_nc_zt=23&_nc_ht=scontent-mnl3-2.xx&_nc_gid=erdHAFs3ohN11wzUaRz2dw&_nc_ss=7b2a8&oh=00_AQNclqxi1gui6jzibzUCSo8SdmX-y-kKw3ctrY5OshlhFg&oe=6AD3F6D0",
+    },
     {
       name: "Geraldine Visca",
       position: "Concepcion Sur Elder",
@@ -101,7 +106,7 @@ const pcmOrgChart = [
       photo:
         "https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-1/782877943_122144019981346865_8885606365774409219_n.jpg?stp=dst-jpg_tt6&cstp=mx1464x1472&ctp=s100x100&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHYLMxDRKN-jCaUbXKPECDt4GvhI8Cph3nga-EjwKmHeTLWfRC8ifOBMTau3PPdyxUONXSdTAs_XQ3N9Iysa5S7&_nc_ohc=CZL0sw2IJWkQ7kNvwEKfVp4&_nc_oc=AdrPWjZWCRFxh98PR2WViEwWps4cHiEW5hFkzgYGaVK0K5ngOu6ZFqqtmIk2o9nmgZYR4_mrzZeqJ9iGszxmQeD_&_nc_zt=24&_nc_ht=scontent-mnl3-1.xx&_nc_gid=edbEIbt4INkX89C4pipoew&_nc_ss=7b2a8&oh=00_AQNzY8VMr8xQHgd-oGqSiemPPeUK0faggTfPIKcrO4xToQ&oe=6AD7EF99",
     },
-    { name: "April Ganoria", position: "Church PIO", photos: "photos/default/April.jpg"},
+    { name: "April Ganoria", position: "Church PIO", photos: "/photos/default/april.jpg"},
     { name: "Samchell Amoroto", position: "Church PIO" },
     { name: "Jayzlaire Ramirez", position: "Church PIO" },
     { name: "Jhavin Ramal", position: "Church PIO" },
@@ -263,7 +268,7 @@ function renderAnnouncements() {
   const list = $("#announcementList");
 
   if (!announcements.length) {
-    list.append(el("p", { className: "empty", text: "No announcements yet." }));
+    list.append(el("p", { className: "empty", text: "Check back soon for updates!" }));
     return;
   }
 
@@ -522,7 +527,6 @@ function showGreeting() {
     localStorage.setItem(todayKey, "1");
   }
 }
-
 
 const phrases = [
   "Mission for All",
