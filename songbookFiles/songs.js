@@ -759,4 +759,85 @@ const songs = [
     Nothing compares to the promise I have in You
     `,
   },
+  
+  {
+    number: 31,
+    title: "Side By Side",
+    category: "Short Choruses",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    Side by side we stand
+    Waiting God's command
+    Worshipping the saving King
+    Living by His grace
+    And moving out in faith
+    Jesus will see us through
+
+    [Chorus]
+    Meet me in Heaven
+    We'll join hands together
+    Meet me by the Saviours' side
+    I'll meet you in Heaven
+    We'll sing songs together
+    Brothers and Sisters I'll be there
+
+    [Verse 2]
+    Soldiers all are we
+    To go where Jesus leads
+    To fight the foe and we will overcome
+    Heaven is our goal
+    To save every soul
+    Pray that we all will be there
+    `,
+  },
+  {
+    number: 32,
+    title: "Trust His Heart",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    All things work for our good
+    Though sometimes we don't see
+    how they could
+    Struggles that break our hearts in two
+    Sometimes blind us to the truth
+
+    Our Father knows what's best for us
+    His ways are not our own
+    So when your pathway grows dim
+    And you just can't see Him
+    Remember you're never alone
+
+    [Chorus]
+    God is too wise to be mistaken
+    God is too good to be unkind
+    So when you don't understand
+    When you don't see His plan
+    When you can't trace His hand
+    Trust His Heart
+
+    [Verse 2]
+    He sees the master's plan
+    He holds the future in His hand
+    So don't live as those who have no hope
+    All our hope is found in Him
+
+    We see the present clearly
+    He sees the first and the last
+    And like a tapestry
+    He's weaving you and me
+    To someday be just like Him
+
+    [----------Repeat Chorus----------]
+
+    [Bridge]
+    He alone is faithful and true
+    He alone knows
+    What is best for you
+
+    [----------Repeat Chorus----------]
+    `,
+  },
 ];
