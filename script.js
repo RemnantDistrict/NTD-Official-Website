@@ -32,14 +32,12 @@ const ntdOrgChart = [
     {
       name: "Chona Morales",
       position: "District Secretary & San Agustin Elder",
-      photo:
-        "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/838910052_1675457767485150_1031739331196364065_n.jpg?stp=dst-jpg_tt6&cstp=mx2041x2048&ctp=s2041x2048&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFt3Z88d-MaRN0rgdpisWijengG6U_ACZF6eAbpT8AJkf3DHpo6i5lqmgFfHOq4vkdV2kwFEB0DTnpkSjuSAg8k&_nc_ohc=ydKrSdy-bZUQ7kNvwHr985y&_nc_oc=AdqerO7TNah_s4nl3B741XDikVZAE49cYXTcl472ZLnKlxkGxYyRNdvltiUo5lBgHq_rYqhHQ0JCihVhBClLeLt4&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=PNol3wFWq9157FauKjkcEA&_nc_ss=7b2a8&oh=00_AQMr1hbqcVeaPVwNHrby7TV_yRTqSWJ-0L55ZMANjgvMyg&oe=6AD3EBED",
+      photo: "photos/default/chona.jpg"
     },
     {
       name: "Gladys Jongay",
       position: "District Treasurer",
-      photo:
-        "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/801200339_29004223205845380_2565040816093357390_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGRAhRAGX3idUKyvNbDfNa8jzpfg7QwpDOPOl-DtDCkM5KSy8FM_uORGpEBG_XZDhBPAdvbLuSQG4QxFUFRD4FW&_nc_ohc=MC-kTrDL6aoQ7kNvwG-UYzS&_nc_oc=AdrKsynptjWl72R9ACDx2Lt15_Clx4laSRWJbnD3Oy__pE9sAuUbOmaIo0NoYL6aQpHHQ3Toukgw_Va2QIZTBE2r&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=pNs9WnRjJ23UNsNBSvYoTA&_nc_ss=7b2a8&oh=00_AQNYCSM5cPEp7jw6cjrgdda44O1yKVzBfLzOvyXM9_RgUQ&oe=6ACEAE98",
+      photo: "photos/default/gladys.jpg"
     },
     {
       name: "Francis Noe",
@@ -126,7 +124,7 @@ const events = [
     name: "Remnant Fellowship",
     location: "Paroyhog, Sta. Maria, Romblon",
     date: "2026-10-24",
-    // theme:
+    theme: "Called, Commited, Commended"
   },
   {
     name: "Pathfinder Camping 2026",
@@ -154,6 +152,24 @@ const announcements = [
   //     author: "Pastor Raymun Fajilan",
   // },
 ];
+
+
+(function () {
+    const el = document.getElementById("countdown");
+    if (!el) return;
+    const target = new Date(el.dataset.date).getTime();
+
+    function tick() {
+        const diff = target - Date.now();
+        if (diff <= 0) { el.textContent = "Happening now 🎉"; return; }
+        const d = Math.floor(diff / 864e5);
+        const h = Math.floor((diff % 864e5) / 36e5);
+        const m = Math.floor((diff % 36e5) / 6e4);
+        el.textContent = d > 0 ? `${d}d ${h}h ${m}m to go` : `${h}h ${m}m to go`;
+    }
+    tick();
+    setInterval(tick, 60000);
+})();
 
 const MAX_VISIBLE = 4;
 
