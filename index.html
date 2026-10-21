@@ -77,27 +77,56 @@
     </aside>
     <main id="main">
         <section class="heroSect" id="home">
+            <div class="heroGlow" aria-hidden="true"></div>
+
             <div class="heroContent">
-                <h1>Welcome to Northern Tablas District of Seventh-day Adventist Church</h1>
-                <p class="typewriterContainer">
-                    <span id="typewriterText"></span>
-                    <span class="cursor">|</span>
+
+                <h1>
+                    Welcome to
+                    <span class="heroAccent">Northern Tablas District</span>
+                    of the Seventh-day Adventist Church
+                </h1>
+
+                <p class="typewriterContainer" aria-live="off">
+                    <span id="typewriterText"></span><span class="cursor" aria-hidden="true">|</span>
                 </p>
+
                 <div class="heroActions">
-                    <a class="btn" href="https://www.adventistlocator.org/?lat=12.465430883644089&lng=122.10913992672761&zoom=9.857429846169484" target="_blank" rel="noopener noreferrer">Find a church</a>
-                    <a class="btn btnSolid" href="sermons/sermons.html">Sermons & Prayer Requests<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 5V19L19 12L8 5Z"/></svg></a>
+                    <a class="btn btnSolid" href="sermons/sermons.html">
+                        Sermons &amp; Prayer Requests
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5V19L19 12L8 5Z"/></svg>
+                    </a>
+                    <a class="btn" href="https://www.adventistlocator.org/?lat=12.465430883644089&lng=122.10913992672761&zoom=9.857429846169484" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Find a church near me
+                    </a>
                 </div>
+
                 <div class="cardGrid">
                     <a class="card" href="#events">
-                        <b>Upcoming event</b>
+                        <span class="cardIcon" aria-hidden="true">
+                            <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        </span>
+                        <h3>Upcoming event</h3>
                         <p id="nextEvent">Check back soon for updates!</p>
+                        <small>
+                            <b class="countdown" id="countdown" data-date="2026-10-24T08:00:00+08:00"></b>
+                        </small>
                     </a>
+
                     <a class="card" href="#announcements">
-                        <b>Latest announcement</b>
+                        <span class="cardIcon" aria-hidden="true">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                        </span>
+                        <h3>Latest announcement</h3>
                         <p id="latestAnnouncement">Check back soon for updates!</p>
                     </a>
+
                     <figure class="card verseCard">
-                        <b>Bible verse</b>
+                        <span class="cardIcon" aria-hidden="true">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        </span>
+                        <h3>Bible verse</h3>
                         <blockquote id="bibleQuote"></blockquote>
                         <figcaption id="bibleVerse"></figcaption>
                     </figure>
@@ -158,7 +187,6 @@
         </svg>
 
         <div class="footerInner">
-
             <div class="footerBeliefs">
                 <article class="beliefCard">
                     <h3>Our Mission</h3>
@@ -174,7 +202,6 @@
                     <p>In harmony with Bible revelation, Seventh-day Adventists see as the climax of God’s plan the restoration of all His creation to full harmony with His perfect will and righteousness.</p>
                 </article>
             </div>
-
             <div class="footerGrid">
 
                 <div class="footerCol footerBrandCol">
@@ -237,7 +264,7 @@
         <div class="lbCount" id="lbCount" aria-live="polite"></div>
     </div>-->
     <h1 style="text-align: center;">We’re upgrading our systems to make it better!</h1>
-    <p style="text-align: center;">This NTD website is currently undergoing maintenance. We are fixing a few minor issues and will be back online shortly. Thank you for your patience!</p>
+    <p style="text-align: center;">This NTD website is currently undergoing maintenance. We are fixing a few minor issues and adding new features for the website, we'll be back online shortly. Thank you for your patience!</p>
     <h3 style="text-align: center;">— A friendly message from your pogi at mabait na programmer heheh😉</h3>
 </body>
 </html>
