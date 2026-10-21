@@ -97,6 +97,9 @@ const albums = [
     id: "pcm",
     name: "PCM",
     photos: [
+      {src: basePath + "photos/pcmthirtysix.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthirtyfive.jpg", alt: "PCM Photos"},
+      {src: basePath + "photos/pcmthirtyfour.jpg", alt: "PCM Photos"},
       {src: basePath + "photos/pcmthirtythree.jpg", alt: "PCM Photos"},
       {src: basePath + "photos/pcmthirtytwo.jpg", alt: "PCM Photos"},
       {src: basePath + "photos/pcmthirtyone.jpg", alt: "PCM Photos"},
@@ -229,6 +232,8 @@ const albums = [
     id: "sanAgustin",
     name: "San Agustin",
     photos: [
+      { src: basePath + "photos/sanagustinfiftyeight.jpg", alt: "San Agustin" },
+      { src: basePath + "photos/sanagustinfiftyseven.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftysix.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftyfive.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftyfour.jpg", alt: "San Agustin" },
