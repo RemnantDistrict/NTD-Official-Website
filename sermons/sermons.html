@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sermon Outline</title>
-    <link rel="icon" href="photos/ntd-logo.jpg">
+    <link rel="icon" href="/photos/ntd-logo.jpg">
     <link rel="stylesheet" href="sermons.css">
     <script src="sermons.js" defer></script>
 </head>
 <body>
     <header>
         <div class="wrap">
-            <a class="brand" href="../index.html"><img src="../photos/default/ntd-logo.jpg" alt="">Northern Tablas District</a>
+            <a class="brand" href="../index.html"><img src="/photos/default/ntd-logo.jpg" alt="">Northern Tablas District</a>
             <nav aria-label="Page">
                 <a href="../index.html">Home</a>
                 <a href="../songbook.html">Song Book</a>
@@ -56,6 +56,10 @@
             </div>
 
             <div class="grid" id="grid"></div>
+
+            <div class="loadMoreWrap">
+                <button type="button" class="btn" id="loadMore" hidden>Load more sermons</button>
+            </div>
             <div class="empty" id="empty" hidden>
                 <h3>No sermons found</h3>
                 <p>Try a different word or clear the filters.</p>
@@ -76,10 +80,6 @@
                         <label for="pName">Name <span class="hint">(optional)</span></label>
                         <input id="pName" name="name" autocomplete="name">
                     </div>
-                    <!-- <div>
-                        <label for="pContact">Email or phone <span class="hint">(optional)</span></label>
-                        <input id="pContact" name="contact" autocomplete="email">
-                    </div> -->
                 </div>
                 <div>
                     <label for="pTopic">What is it about?</label>
