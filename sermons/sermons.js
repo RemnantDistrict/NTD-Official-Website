@@ -162,7 +162,7 @@ const sorters = {
   za: (a, b) => b.title.localeCompare(a.title),
 };
 
-const LOGO = "/photos/ntd-logo.jpg";
+const LOGO = "../photos/ntd-logo.jpg";
 
 function ytId(url) {
   try {
@@ -183,7 +183,7 @@ function thumbUrl(s) {
 }
 
 /* ---------- Load more settings ---------- */
-const PAGE_SIZE = 15; // how many sermons to show at a time
+const PAGE_SIZE = 9;
 let visibleCount = PAGE_SIZE;
 
 /* ---------- Build filter options from the data ---------- */
@@ -256,7 +256,6 @@ function render() {
     .sort(sorters[$("sort").value]);
 
   const shown = list.slice(0, visibleCount);
-
   $("grid").replaceChildren(...shown.map(card));
   $("empty").hidden = list.length > 0;
   $("grid").hidden = list.length === 0;
