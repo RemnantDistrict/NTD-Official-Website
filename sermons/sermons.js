@@ -182,6 +182,10 @@ function thumbUrl(s) {
   return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : LOGO;
 }
 
+/* ---------- Load more settings ---------- */
+const PAGE_SIZE = 15; // how many sermons to show at a time
+let visibleCount = PAGE_SIZE;
+
 /* ---------- Build filter options from the data ---------- */
 [...new Set(sermons.map((s) => s.topic))]
   .sort()
@@ -251,15 +255,18 @@ function render() {
     .filter((s) => !q || norm(`${s.title} ${s.topic} ${s.speaker}`).includes(q))
     .sort(sorters[$("sort").value]);
 
-  $("grid").replaceChildren(...list.map(card));
+  const shown = list.slice(0, visibleCount);
+
+  $("grid").replaceChildren(...shown.map(card));
   $("empty").hidden = list.length > 0;
   $("grid").hidden = list.length === 0;
-  $("count").textContent =
-    `Showing ${list.length} of ${sermons.length} sermons`;
+  $("loadMore").hidden = shown.length >= list.length;
+  $("count").textContent = `Showing ${shown.length} of ${list.length} sermons`;
   $("reset").hidden = !(q || topic || month);
 }
 
 function resetFilters() {
+  visibleCount = PAGE_SIZE;
   $("search").value = "";
   $("topic").value = "";
   $("month").value = "";
@@ -270,16 +277,34 @@ function resetFilters() {
 
 ["input", "change"].forEach((evt) =>
   ["search", "topic", "month", "sort"].forEach((id) =>
-    $(id).addEventListener(evt, render),
+    $(id).addEventListener(evt, () => {
+      visibleCount = PAGE_SIZE; // go back to the first 15 when filters change
+      render();
+    }),
   ),
 );
 $("reset").addEventListener("click", resetFilters);
 $("emptyReset").addEventListener("click", resetFilters);
 
+$("loadMore").addEventListener("click", () => {
+  visibleCount += PAGE_SIZE;
+  render();
+});
+
+/* If a sermon is picked from the home page (sermons.html?video=1) and it is
+   beyond the first 15, load enough sermons so it can be found and highlighted */
+const picked = new URLSearchParams(location.search).get("video");
+if (picked) {
+  const sorted = [...sermons].sort(sorters[$("sort").value]);
+  const idx = sorted.findIndex((s) => String(s.id) === picked);
+  if (idx >= PAGE_SIZE) {
+    visibleCount = Math.ceil((idx + 1) / PAGE_SIZE) * PAGE_SIZE;
+  }
+}
+
 render();
 
 /* Highlight a sermon chosen on the home page (sermons.html?video=1) */
-const picked = new URLSearchParams(location.search).get("video");
 const pickedCard = picked && $("sermon-" + picked);
 if (pickedCard) {
   pickedCard.classList.add("highlight");
