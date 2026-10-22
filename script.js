@@ -75,38 +75,30 @@ const pcmOrgChart = [
     {
       name: "Winpa Garachico",
       position: "President",
-      photo:
-        "https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-1/665377716_1588111332472749_3039718129364260468_n.jpg?stp=dst-jpg_tt6&cstp=mx1098x1101&ctp=s100x100&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeE6YUkbTbpEnIQxt6FtLCz2AeNUFB_gOAIB41QUH-A4AoI_C5viKum8UBS2rLjr1BlHaKMzXK95xjP8AaiFcHzO&_nc_ohc=MTDc_IgTxVMQ7kNvwFhLAVR&_nc_oc=AdoV-dAUab_r8HxKBob3tDU1V0gcHoOFQ4Yim7ZHu31xKXTd42akW6QJHjEr1UsBN6dquRdYo6xb0biMM6G45zIn&_nc_zt=24&_nc_ht=scontent-mnl3-1.xx&_nc_gid=2ixp4uVnXO-iVg9BYfsaCA&_nc_ss=7b2a8&oh=00_AQOBmjzXiMFNRNyWr-GSr_xF59w98wppjo2nPELNimBh8w&oe=6AD808AA",
     },
   ],
   [
     {
       name: "Arnold Bance",
       position: "Vice President Social",
-      photo:
-        "https://scontent-mnl3-2.xx.fbcdn.net/v/t39.30808-6/779262023_2371997223338114_5904961527315502627_n.jpg?stp=dst-jpg_tt6&cstp=mx812x820&ctp=s812x820&_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF70iWW3MNI8_P4HwpzFjJN-nyFfv4rjbL6fIV-_iuNsue-C3G1vLtoEQf6gAXMcyOn_fgPGB4BH2nkMX7c62rd&_nc_ohc=rgB8iu4L0pcQ7kNvwGQ1bE6&_nc_oc=Ado3fDPtcl1r8jcjCdqF3z3JrEhLCpAxRjUXwvIs_XDrTy4YmWR_T0mlrpdQO33xoaMh_Dv5TOlCw9ISNAZn-eNr&_nc_zt=23&_nc_ht=scontent-mnl3-2.xx&_nc_gid=KBu1wRrNVBROW7bRmZKH0g&_nc_ss=7b2a8&oh=00_AQOlZxdnqIWaUSFsLo2B4fYOOhMfZnl6IdFTXfIDy3lVLQ&oe=6AD7E270",
     },
     { name: "Aaron Visca", position: "Vice President Religious" },
     { name: "Vaniah Angelino", position: "Secretary" },
     {
       name: "Willen Rose Molina",
       position: "Treasurer",
-      photo:
-        "https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-6/825327338_122226112598367251_6157192495496152244_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEZ24pwvto56p-3d0bIZDdEG68J7MRyxWwbrwnsxHLFbNJTo-c6657C2UX0zRVes3BdIUba_09j4xDvv6WJzi7l&_nc_ohc=b0gpYM_MvEMQ7kNvwFzHBUj&_nc_oc=AdpCs0Sjnci7Vn5Ysx1DslfpcGVC1el88mQy0Kd1mxFmFvwdC1OldbCmHspFedgJy3Ej8_siol3rixlfKYbTACHG&_nc_zt=23&_nc_ht=scontent-mnl3-1.xx&_nc_gid=Szt8mN19zbHePolaYUOZvA&_nc_ss=7b2a8&oh=00_AQMKLlQGif6vb0mksX_u5tmu8DY8ht2akwqjKVgT7if7DQ&oe=6AD80C19",
     },
   ],
   [
     {
       name: "Veronica Basa",
       position: "Church PIO",
-      photo:
-        "https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-1/782877943_122144019981346865_8885606365774409219_n.jpg?stp=dst-jpg_tt6&cstp=mx1464x1472&ctp=s100x100&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHYLMxDRKN-jCaUbXKPECDt4GvhI8Cph3nga-EjwKmHeTLWfRC8ifOBMTau3PPdyxUONXSdTAs_XQ3N9Iysa5S7&_nc_ohc=CZL0sw2IJWkQ7kNvwEKfVp4&_nc_oc=AdrPWjZWCRFxh98PR2WViEwWps4cHiEW5hFkzgYGaVK0K5ngOu6ZFqqtmIk2o9nmgZYR4_mrzZeqJ9iGszxmQeD_&_nc_zt=24&_nc_ht=scontent-mnl3-1.xx&_nc_gid=edbEIbt4INkX89C4pipoew&_nc_ss=7b2a8&oh=00_AQNzY8VMr8xQHgd-oGqSiemPPeUK0faggTfPIKcrO4xToQ&oe=6AD7EF99",
     },
     { name: "April Ganoria", position: "Church PIO", photos: "/photos/default/april.jpg"},
     { name: "Samchell Amoroto", position: "Church PIO" },
     { name: "Jayzlaire Ramirez", position: "Church PIO" },
     { name: "Jhavin Ramal", position: "Church PIO" },
-    { name: "Krisha Mortel", position: "Church PIO", photos: "https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-1/627519564_882660734634735_2285363579639376628_n.jpg?stp=dst-jpg_tt6&cstp=mx772x778&ctp=p100x100&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeG6y1zYUl4a_kADRtUgk-Smec7eWrt8W6B5zt5au3xboKjFhFKh2WpBOIsrZgqNvuvcZDKmmo3OH7TRLL3nA1fs&_nc_ohc=_AK0NJ2m1-gQ7kNvwHjLCme&_nc_oc=Adp969rMPvs3q3LFQYvMr64G2rfXI5ht0QwYvEEeocziEK_hpD34v8qThy__cZmGGvfgVqQIvImDmGz6Ng_UhI-t&_nc_zt=24&_nc_ht=scontent-mnl1-2.xx&_nc_gid=SvBL_BawP4fJv7YD2_pkNQ&_nc_ss=7b2a8&oh=00_AQMyNAxBxr26uOysFI3flkLUDYHJGM02BoVwvW_cfC39NQ&oe=6AD9392E"},
+    { name: "Krisha Mortel", position: "Church PIO"},
   ],
 ];
 
