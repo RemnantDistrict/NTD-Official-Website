@@ -192,6 +192,7 @@ const albums = [
     id: "staMaria",
     name: "Sta Maria",
     photos: [
+      {src: basePath + "photos/paroyhogtwentyfour.jpg", alt: "Sta Maria"},
       {src: basePath + "photos/paroyhogtwentythree.jpg", alt: "Sta Maria"},
       {src: basePath + "photos/paroyhogtwentytwo.jpg", alt: "Sta Maria"},
       {src: basePath + "photos/stamariaeleven.jpg", alt: "Sta Maria"},
