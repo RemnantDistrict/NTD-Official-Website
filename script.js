@@ -54,8 +54,6 @@ const ntdOrgChart = [
     {
       name: "Nenette Lorenzo",
       position: "Concepcion Norte Elder",
-      photo:
-        "https://scontent-mnl3-2.xx.fbcdn.net/v/t39.30808-6/473054147_1175592760650054_6876257426040782697_n.jpg?stp=dst-jpg_tt6&cstp=mx750x750&ctp=s750x750&_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGtNoSwkWbBCWke1uEAVk5JaaofERfxdq9pqh8RF_F2r0tdWFy89iB2Mxp_Qkhy2fJvX5XQlKZ2-9BU-mEuRzgI&_nc_ohc=ns7yc_hvpCsQ7kNvwE6at5_&_nc_oc=AdoKd5G0BzxEUXtv1pudzC6yfuOhmdT-PwmJrIuug629_q1jjGPk-HNp9Q9Yi8LvUa_bfqiqXtfCZfmm1_tHqmlT&_nc_zt=23&_nc_ht=scontent-mnl3-2.xx&_nc_gid=erdHAFs3ohN11wzUaRz2dw&_nc_ss=7b2a8&oh=00_AQNclqxi1gui6jzibzUCSo8SdmX-y-kKw3ctrY5OshlhFg&oe=6AD3F6D0",
     },
     {
       name: "Geraldine Visca",
