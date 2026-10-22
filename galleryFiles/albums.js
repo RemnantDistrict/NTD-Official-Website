@@ -232,6 +232,8 @@ const albums = [
     id: "sanAgustin",
     name: "San Agustin",
     photos: [
+      { src: basePath + "photos/sanagustinsixteen.jpg", alt: "San Agustin" },
+      { src: basePath + "photos/sanagustinfiftynine.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftyeight.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftyseven.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftysix.jpg", alt: "San Agustin" },
