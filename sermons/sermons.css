@@ -543,6 +543,12 @@ textarea[aria-invalid="true"] {
     }
 }
 
+.loadMoreWrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 @media (max-width: 800px) {
 
     .toolbar,
