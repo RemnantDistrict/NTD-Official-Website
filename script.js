@@ -107,6 +107,12 @@ const orgCharts = { ntd: ntdOrgChart, pcm: pcmOrgChart };
 
 const events = [
   {
+    name: "Remnant Fellowship",
+    location: "Paroyhog, Sta. Maria, Romblon",
+    date: "2026-10-24",
+    theme: "Called, Committed, Commended",
+  },
+  {
     name: "Pathfinder Camping 2026",
     location: "Dubduban, San Agustin, Romblon",
     date: "2026-10-30 - 2026-11-02",
