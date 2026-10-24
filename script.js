@@ -95,7 +95,7 @@ const pcmOrgChart = [
       name: "Veronica Basa",
       position: "Church PIO",
     },
-    { name: "April Ganoria", position: "Church PIO", photos: "/photos/default/april.jpg"},
+    { name: "April Ganoria", position: "Church PIO", photos: "photos/default/april.jpg"},
     { name: "Samchell Amoroto", position: "Church PIO" },
     { name: "Jayzlaire Ramirez", position: "Church PIO" },
     { name: "Jhavin Ramal", position: "Church PIO" },
