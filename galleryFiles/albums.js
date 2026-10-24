@@ -192,6 +192,8 @@ const albums = [
     id: "staMaria",
     name: "Sta Maria",
     photos: [
+      {src: basePath + "photos/stamariathirteen.jpg", alt: "Sta Maria"},
+      {src: basePath + "photos/stamariatwelve.jpg", alt: "Sta Maria"},
       {src: basePath + "photos/paroyhogtwentyfour.jpg", alt: "Sta Maria"},
       {src: basePath + "photos/paroyhogtwentythree.jpg", alt: "Sta Maria"},
       {src: basePath + "photos/paroyhogtwentytwo.jpg", alt: "Sta Maria"},
@@ -233,6 +235,10 @@ const albums = [
     id: "sanAgustin",
     name: "San Agustin",
     photos: [
+      { src: basePath + "photos/sanagustinsixtyfour.jpg", alt: "San Agustin" },
+      { src: basePath + "photos/sanagustinsixtythree.jpg", alt: "San Agustin" },
+      { src: basePath + "photos/sanagustinsixtytwo.jpg", alt: "San Agustin" },
+      { src: basePath + "photos/sanagustinsixtyone.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinsixty.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftynine.jpg", alt: "San Agustin" },
       { src: basePath + "photos/sanagustinfiftyeight.jpg", alt: "San Agustin" },
