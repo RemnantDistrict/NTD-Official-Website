@@ -135,21 +135,37 @@ const announcements = [
 
 
 (function () {
-    const el = document.getElementById("countdown");
-    if (!el) return;
-    const target = new Date(el.dataset.date).getTime();
+  const el = document.getElementById("countdown");
+  if (!el) return;
 
-    function tick() {
-        const diff = target - Date.now();
-        if (diff <= 0) { el.textContent = "Happening now"; return; }
-        const d = Math.floor(diff / 864e5);
-        const h = Math.floor((diff % 864e5) / 36e5);
-        const m = Math.floor((diff % 36e5) / 6e4);
-        el.textContent = d > 0 ? `${d}d ${h}h ${m}m to go` : `${h}h ${m}m to go`;
+  const now = new Date();
+  const upcoming = events
+    .map(e => ({ ...e, start: new Date(e.date.split(" - ")[0] + "T00:00:00+08:00") }))
+    .filter(e => e.start >= now)
+    .sort((a, b) => a.start - b.start)[0];
+
+  if (!upcoming) {
+    el.textContent = "No upcoming events";
+    return;
+  }
+
+  const target = upcoming.start.getTime();
+
+  function tick() {
+    const diff = target - Date.now();
+    if (diff <= 0) {
+      el.textContent = `${upcoming.name} - Happening now`;
+      return;
     }
-    tick();
-    setInterval(tick, 60000);
+    const d = Math.floor(diff / 864e5);
+    const h = Math.floor((diff % 864e5) / 36e5);
+    const m = Math.floor((diff % 36e5) / 6e4);
+    el.textContent = d > 0 ? `${d}d ${h}h ${m}m to go` : `${h}h ${m}m to go`;
+  }
+  tick();
+  setInterval(tick, 60000);
 })();
+
 
 const MAX_VISIBLE = 4;
 
