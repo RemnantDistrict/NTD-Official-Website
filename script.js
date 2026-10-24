@@ -48,7 +48,8 @@ const ntdOrgChart = [
   [
     { name: "Maximo Famaran", position: "San Agustin Elder" },
     { name: "Danny Angelino", position: "Binongaan Elder" },
-    { name: "Job Barolo", position: "Camantaya Elder" },
+    { name: "Hermy Marollano", position: "Camantaya Elder" },
+    { name: "Samson Amoroto", position: "Camantaya Elder" },
   ], //For Elders in San Agustin
   [
     {
@@ -105,17 +106,6 @@ const pcmOrgChart = [
 const orgCharts = { ntd: ntdOrgChart, pcm: pcmOrgChart };
 
 const events = [
-  {
-    name: "District Pastor Crusade",
-    location: "Camantaya, San Agustin, Romblon",
-    date: "2026-10-18 - 2026-10-23"
-  },
-  {
-    name: "Remnant Fellowship",
-    location: "Paroyhog, Sta. Maria, Romblon",
-    date: "2026-10-24",
-    theme: "Called, Commited, Commended"
-  },
   {
     name: "Pathfinder Camping 2026",
     location: "Dubduban, San Agustin, Romblon",
