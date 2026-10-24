@@ -141,7 +141,7 @@ const announcements = [
 
     function tick() {
         const diff = target - Date.now();
-        if (diff <= 0) { el.textContent = "Happening now 🎉"; return; }
+        if (diff <= 0) { el.textContent = "Happening now"; return; }
         const d = Math.floor(diff / 864e5);
         const h = Math.floor((diff % 864e5) / 36e5);
         const m = Math.floor((diff % 36e5) / 6e4);
