@@ -48,7 +48,7 @@ const ntdOrgChart = [
   [
     { name: "Maximo Famaran", position: "San Agustin Elder" },
     { name: "Danny Angelino", position: "Binongaan Elder" },
-    { name: "Hermy Marollano", position: "Camantaya Elder" },
+    { name: "Hermie Marollano", position: "Camantaya Elder" },
     { name: "Samson Amoroto", position: "Camantaya Elder" },
   ], //For Elders in San Agustin
   [
