@@ -141,37 +141,6 @@ const songs = [
     `,
   },
   {
-    number: 5,
-    title: "Side By Side",
-    category: "Short Choruses",
-    source: "",
-    lyrics: `
-    [Verse 1]
-    Side by side we stand
-    Waiting God's command
-    Worshipping the saving King
-    Living by His grace
-    And moving out in faith
-    Jesus will see us through
-
-    [Chorus]
-    Meet me in Heaven
-    We'll join hands together
-    Meet me by the Saviours' side
-    I'll meet you in Heaven
-    We'll sing songs together
-    Brothers and Sisters I'll be there
-
-    [Verse 2]
-    Soldiers all are we
-    To go where Jesus leads
-    To fight the foe and we will overcome
-    Heaven is our goal
-    To save every soul
-    Pray that we all will be there
-    `,
-  },
-  {
     number: 6,
     title: "Give Me Oil in My Lamp",
     category: "Short Choruses",
@@ -258,7 +227,7 @@ const songs = [
   },
   {
     number: 9,
-    title: "Read Your Bibke",
+    title: "Read Your Bible",
     category: "Action Song",
     source: "",
     lyrics: `
@@ -418,16 +387,32 @@ const songs = [
   {
     number: 17,
     title: "Whisper a Prayer in the Morning",
-    category: "Prayer Song",
+    category: "Response Song",
     source: "",
     lyrics: `
     [Verse 1]
+    Whisper a prayer in the morning
+    Whisper a prayer at noon
+    Whisper a prayer in the evening
+    To keep your heart in tune
+
+    [Verse 2]
+    God answers prayer in the morning
+    God answers prayer at noon
+    God answers prayer in the evening
+    So keep your heart in tune
+
+    [Verse 3]
+    Jesus may come in the morning
+    Jesus may come at noon
+    Jesus may come in the evening
+    So keep your heart in tune
     `,
   },
   {
     number: "18",
     title: "Into My Heart",
-    category: "Prayer Song",
+    category: "Response Song",
     source: "",
     lyrics: `
     [Verse]
@@ -522,11 +507,11 @@ const songs = [
   {
     number: "23",
     title: "Heart of Worship",
-    category: "Inspirational Songs",
+    category: "Inspirational Song",
     source: "",
     lyrics: `
     [Verse 1]
-    When the music faades, all is stripped away,
+    When the music fades, all is stripped away,
     And I simply come;
     Longing just to bring something that's of worth
     That will bless Your heart.
@@ -759,7 +744,6 @@ const songs = [
     Nothing compares to the promise I have in You
     `,
   },
-  
   {
     number: 31,
     title: "Side By Side",
@@ -838,6 +822,285 @@ const songs = [
     What is best for you
 
     [----------Repeat Chorus----------]
+    `,
+  },
+  {
+    number: 33,
+    title: "Rejoice in the Lord",
+    category: "Short Choruses",
+    source: "",
+    lyrics: `
+    [Verse]
+    Rejoice in the Lord always, And again I say rejoice.
+    Rejoice in the Lord always, And again I say rejoice.
+    Rejoice, rejoice, And again I say rejoice. (2x)
+    Rejoice in the Lord always, And again I say rejoice.
+    `,
+  },
+  {
+    number: 34,
+    title: "Lord, I want to know You more",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    Just the time I feel that I've been caught
+    In the mire of self
+    Just the time I feel my mind's been bought
+    By worldly wealth
+    That's when the breeze begins to blow,
+    I know the Spirit's call
+    And all my worldly wanderings just melt
+    Into His Love
+
+    [Chorus]
+    Oh, I want to know You more!
+    Deep within my soul I want to know You,
+    Oh, I want to know You
+    To feel Your Heart and know Your Mind
+    Looking in Your eyes stirs up within me,
+    Cries that say I want to know You
+    Oh, I want to know You more.
+
+    [Verses 2]
+    When my daily deeds ordinarily
+    Lose life and song.
+    My heart begins to bleed,
+    Sensitivity to Him is gone
+    I've run the race but set my own pace
+    And face a shattered sould
+    But the gentle arms of Jesus.
+    Warm my hunger to be whole.
+
+    [----------Repeat Chorus except last line----------]
+
+    [Chorus 2]
+    Oh, I want to know You, And I would give my final breath
+    To know You in Your Death and Resurrection.
+    Oh, I want to know You more
+    Oh, I want to know You (to know You more)
+    Oh, I want to know You more.
+    `,
+  },
+  {
+    number: 35,
+    title: "With Christ in my vessel",
+    category: "Action Song",
+    source: "",
+    lyrics: `
+    [Verse]
+    With Christ in my vessel, I can smile at the storm
+    Smile at the storm, Smile at the storm
+    With Christ in my vessel, I can smile at the storm
+    Until He guides me home
+    Sailing, I'm sailing home. Sailing, I'm sailing home
+    With Christ in my vessel, I can smile at the storm
+    Until He guides me home
+    `,
+  },
+  {
+    number: 36,
+    title: "I Offer My Life",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    All that I am, all that I have
+    I lay them down before You, O Lord
+    The joy and the pain, I'm making them Yours
+
+    [Chorus]
+    Lord, I offer my life to You
+    Everything I've been through, Use it for Your glory
+    Lord, I offer my days to You
+    Lifting my praise to You as a pleasing sacrifice
+    Lord I offer You my life
+
+    [Verse 2]
+    Things in the past, things yet unseen
+    Wishes and dreams
+    That are yet to come true 
+    All of my hopes, all of my plans
+    My heart and my hands are lifted to You
+
+    [----------Repeat Chorus----------]
+
+    [Outro]
+    Lord, I offer you my life
+    `,
+  },
+  {
+    number: 37,
+    title: "Jesus Never Fails",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    So many souls have tested Him
+    Throughout the course of time
+    So many still reach out to Him
+    With broken hearts and dminds
+    And everyone of them will say
+    With no exception that they find
+    Jesus never fails
+
+    Even in the days of old
+    He brought His people through
+    And then He came to prove His love
+    When He died for me and you
+    Then He rose again to prove
+    And every story happened is true
+    Jesus never fails
+
+    [Chorus]
+    Jesus never fails, Jesus never fails
+    You might as well get thee behind me Satan
+    You cannot prevail
+    Because Jesus never fails
+
+    [Verse 2]
+    Sometimes this world brings troubles
+    That I find so hard to bear
+    I know I could not make it without
+    Jesus being there
+    It's so encouraging to know
+    However deep we're in despair
+    That Jesus never fails
+
+    [----------Repeat Chorus----------]
+
+    [Verse 3]
+    So what can I do to prove to you
+    Tell me how can you deny
+    No untold facts, no mysteries
+    It's all cut and dried
+    On the witness stand of your life,
+    I'll be the first to testify
+    That Jesus never fails!
+
+    [----------Repeat Chorus----------]
+    `,
+  },
+  {
+    number: 38,
+    title: "To God be the Glory",
+    category: "Church Hymnal",
+    source: "p.217",
+    lyrics: `
+    [Verse 1]
+    To God be the glory, great things He has done
+    So loved He the world that He gave us His Son
+    Who yielded His life an atonement for sin
+    And opened the life gate that all may go in
+
+    [Chorus]
+    Praise the Lord, praise the Lord
+    Let the earth hear His voice
+    Praise the Lord, praise the Lord
+    Let the people rejoice
+    O come to the Father, through Jesus the Son
+    And give Him the glory, great things He has done
+
+    [Verse 2]
+    O perfect redemption, the purchase of blood
+    To every believer the promise of God
+    The vilest offernder who truly believes
+    That moment from Jesus a pardon receives
+
+    [----------Repeat Chorus----------]
+
+    [Verse 3]
+    Great things He has taught us, great things He has done
+    And great our rejoicing through Jesus the Son
+    But purer, and higherm and greater will be
+    Our wonder, our transport, when Jesus we see
+
+    [----------Repeat Chorus----------]
+    `,
+  },
+  {
+    number: 39,
+    title: "My Life is in Your Hands",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    Life can be so good
+    Life can be so hard
+    Never knowing what each daya
+    Will bring to where you are
+    Sometimes I forget
+    And sometimes I can't see
+    That whatever comes my way
+    You'll be with me
+
+    [Chorus]
+    My life is in Your hands
+    My heart is in Your keeping
+    I'm never without hope
+    Not when my future is with You 
+    My life is in Your hands
+    And though I may not see clearly
+    I will lift my voice and sing
+    'Cause Your love does amazing things
+    Lord, I know, my life is in Your hands
+
+    [Verse 2]
+    Nothing is ofr sure
+    Nothing is for keeps
+    All I know is that Your love
+    Will live eternally
+    So I will find my rest
+    And I will find my peace
+    Knowing that You'll meet
+    My every need
+
+    [----------Repeat Chorus----------]
+
+    [Bridge]
+    When I'm at my weakest, Lord
+    You carry me
+    Then I become my strongest, Lord
+    In your hands
+
+    [----------Repeat Chorus----------]
+
+    [Outro]
+    I trust You Lord, My life is in Your hands
+    `,
+  },
+  {
+    number: 40,
+    title: "Who Am I",
+    category: "Inspirational Song",
+    source: "",
+    lyrics: `
+    [Verse 1]
+    Who am I? That the Lord of all the earth,
+    Would care to know my name, would caare to feel my hurt
+    Who am I? That the Bright and Morning Star,
+    Would choose to light the way, For my ever wandering heart
+
+    [Refrain]
+    Not because of who I am, but because of what You've done
+    Not because of what I've done, but because of who You are
+
+    [Chorus]
+    I am a flower quickly fading, here today and gone tomorrow,
+    A wave tossed in the ocean (ocean), a vapor in the wind,
+    Still You hear me when I'm calling, Lord,
+    You catch me when I'm falling
+    And You've told me who I am...
+    I am Yours
+
+    [Verse 2]
+    Who am I, that the eyes that see my sin
+    Would look on me with love and watch me rise again
+    Who am I, that the voice that calmed the sea
+    Would call out through the rain
+    And calm the storm in me
+
+    [----------Repeat Refrain & Chorus----------]
     `,
   },
 ];
